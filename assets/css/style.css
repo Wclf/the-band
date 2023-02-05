@@ -203,9 +203,10 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 64px 0;
+    padding: 64px 16px;        
 }
 
 #content .section-heading {
@@ -269,6 +270,7 @@ html {
     padding: 3px 4px;
     margin-left: 16px;
 }
+
 
 .tickets-list .quantity {
     float: right;
@@ -387,7 +389,7 @@ html {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
     display: none;
-    align-items: center;;
+    align-items: center;
     justify-content: center;
 }
 
