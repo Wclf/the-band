@@ -10,6 +10,14 @@
 
 /* Mobile */
 @media (max-width: 740px) {
+    .s-full-width {
+        width: 100%;
+    }
+
+    .s-col-full {
+        width: 100%;
+    }
+
     #header {
         overflow: hidden;
     }
@@ -49,5 +57,20 @@
     }
 
 
+    #content .memeber-item {
+        margin-top: 15px;
+        width: 100%;
+    }
 
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .place-item {
+        width: 100%;
+    }
+
+    #content .contact-info {
+        margin-bottom: 16px;
+    }
 }
